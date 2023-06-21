@@ -5,3 +5,5 @@
 - script vyžaduje běžící scraper API na url zadané v find_similar_car\conf.json
 - na API posílá dotaz na scraping modelu zadaného v find_similar_car\neznam_cenu.json a dostává výsledky strukturovné v json
 - provede vyhodnocení a zobrazí auto nejvíce podobné zadanému autu - vyhodnocuje na základě najetých kilometrů, objemu motoru, výkonu motoru a roku výroby
+- script zobrazí vypočítanou hodnotu shoda, která udává procentální podobnost nalezeného a zadaného auta - průměr podobnosti všech čtyř hodnot (najeté kilometrů, objemu motoru, výkonu motoru a rok výroby)
+
